@@ -3,4 +3,4 @@ st.title("first app")
 st.write("created streamlit library")
 name=st.text_input("Enter your name: ")
 if st.button("submit"):
-  st.write("Hello, {name} Welcome to streamlit")
+  st.write(f"Hello, {name} Welcome to streamlit")
